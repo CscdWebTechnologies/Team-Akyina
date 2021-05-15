@@ -1,0 +1,56 @@
+header {
+  border-bottom: 1px solid rgb(236, 239, 241);
+  font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+.header-wrapper {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 60px;
+}
+
+.logo {
+  width: 112px;
+}
+
+.header_middle_nav,
+.header_auth_links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.header_middle_nav > * {
+  border-bottom: 4px solid #ffff;
+}
+
+.header_middle_nav > :hover {
+  border-bottom: 4px solid rgb(22, 82, 240);
+}
+
+.get__started {
+  background-color: rgb(22, 82, 240);
+  padding: 0 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+}
+
+.sign__in {
+  color: rgb(5, 15, 25);
+  text-align: center;
+  cursor: pointer;
+}
+
+.sign__in:hover {
+  color: rgb(22, 82, 240);
+}
