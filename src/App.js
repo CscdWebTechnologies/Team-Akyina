@@ -1,13 +1,13 @@
 import React from "react";
-import  Body  from "./components/Body";
-import  Footer  from "./components/Footer";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 import Account from "./components/Account";
 import BlueBanner from "./components/BlueBanner";
 import CoinTable from "./components/CoinTable";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import SpaceBanner from "./components/SpaceBanner";
-
+import Crypto from "./components/Crypto";
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
       <Body />
       <CoinTable />
       <Portfolio />
+      <Crypto />
       <BlueBanner />
       <Account />
       <SpaceBanner />
