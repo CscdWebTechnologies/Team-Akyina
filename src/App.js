@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import SpaceBanner from "./components/SpaceBanner";
 import Crypto from "./components/Crypto";
+import TableBelow from "./components/TableBelow";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Header />
       <Body />
       <CoinTable />
+      <TableBelow />
       <Portfolio />
       <Crypto />
       <BlueBanner />
